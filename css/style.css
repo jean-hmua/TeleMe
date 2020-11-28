@@ -1,0 +1,62 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* ---------MY COMPONENTS-----------*/
+/* BANNER */
+@import url("components/banner.css");
+/*BUTTON */
+@import url("components/button.css");
+/* CARD */
+@import url("components/card.css");
+/* FOOTER */
+@import url("components/footer.css");
+/*----------------------------------*/
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color:  rgba(43, 32, 204,0.8);
+  background: linear-gradient(356deg, rgba(131,58,180,0.39539565826330536) 0%, rgba(29,253,187,0.40379901960784315) 74%, rgba(250,69,252,0.5074404761904762) 100%);
+  
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+}
+
+/* Custom design below! */
+
+/*How it works*/
+.how-it-works {
+  margin: 0 auto 60px auto; 
+}
+.how-it-works h2 {
+  margin: 40px;
+ text-align: center;
+ font-size: 18px;
+ color: white;
+ text-shadow: -4px 2px #00f55e73;
+}
+
+.cards {
+  margin: 0 auto;
+  align-items: center;
+}
+
+.cards .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 50%;
+}
